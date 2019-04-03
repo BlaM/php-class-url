@@ -4,7 +4,7 @@
 // | URL Class 0.3.3                                                      |
 // +----------------------------------------------------------------------+
 // | Author: Keyvan Minoukadeh - keyvan@k1m.com - http://www.keyvan.net   |
-// | Contributor: Dominik Deobald - dominik.deobald@interdose.com         |
+// | Contributor: Dominik Deobald - https://github.com/BlaM               |
 // +----------------------------------------------------------------------+
 // | PHP class for handling URLs                                          |
 // +----------------------------------------------------------------------+
@@ -48,10 +48,12 @@ define('URL_OPTION_WITH_FRAG', 1);
 * See test_URL.php file for examples of how relative URLs are handled.
 *
 * CHANGES:
-*  + 0.3.2 (30-Dec-2009 -- dominik.deobald@interdose.com)
+*  + 0.3.3 (**-***-2016 -- BlaM)
+*    - PHP7 compatibility
+*  + 0.3.2 (30-Dec-2009 -- BlaM)
 *    - Handle "set_relative" for urls that only contain a query-string but
 *      no other components like a filename, e.g. "?a=b"
-*  + 0.3.1 (05-Aug-2007 -- dominik.deobald@interdose.com)
+*  + 0.3.1 (05-Aug-2007 -- BlaM)
 *    - changed method &clone to __clone
 *  + 0.3 (15-Jul-2003)
 *    - equal_to() method added.
